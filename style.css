@@ -17,7 +17,7 @@ h1 {
   font-size: 9em;
   text-align: center;
   margin: 1em;
-  padding: 20px 0 20px 0
+  padding: 40px 0 20px 0
 }
 
 h3 {
@@ -29,13 +29,14 @@ h3 {
 
 h5 {
   font-size: 1.2em;
-  line-height: 1em;
+  line-height: 3em;
+  font-size: 18px;
   margin-top: 0px;
   margin-bottom: 0px;
   color: red;
 }
 
-header > div {
+#header > div {
   padding: 0 25px;
   display: flex;
   justify-content: space-between;
@@ -47,6 +48,42 @@ nav {
   width: 600px;
 }
 
+#header .search-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  border-bottom: none;
+}
+
+input {
+  padding: 6px;
+  /* background-color:  rgba(232,217,217,.3); */
+  margin-top: 4px 0 4px;
+  font-size: 17px;
+  border: 1px solid #ccc;
+  background-image: url(/images/magnifying-glass.png);
+  background-position: 5px 5px;
+  background-repeat: no-repeat;
+  padding: 10px 40px 12px;
+  width: 30em
+}
+
+.signup-links {
+  font-size: 14px;
+  margin: 10px 5px 10px;
+  text-decoration: none;
+  border: none
+}
+
+.search-button {
+  background-color: #FB3B49;
+  border: none;
+  color: white;
+  padding: 14px 20px 14px;
+}
+
+
 nav ul {
   list-style: none;
   display: flex;
@@ -57,7 +94,7 @@ nav ul {
 nav a {
   text-decoration: none;
   color: black;
-  font-weight: bold
+  font-weight: bold;
 }
 
 
@@ -89,10 +126,24 @@ nav a {
   font-size: 14px;
   text-decoration: none;
   padding: 10px 20px 10px;
-  margin: 200px 150px ;
+  margin: 20px 15px;
   color: white;
   box-shadow: 8px 8px 0 rgba(251,59,73,.2)
 }
+
+
+.link-btn-white {
+  background-color: white;
+  color: black;
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px 20px 10px;
+  margin: 20px 15px ;
+  box-shadow: 8px 8px 0 rgba(251,59,73,.2)
+}
+
 
 #secondPart {
   height: 800px;
@@ -101,7 +152,7 @@ nav a {
   text-align: center;
   width: 1200px;
   margin: 0 auto;
-  padding: 10px 0 20px 0
+  padding: 10px 0
 }
 
 #secondPart img {
@@ -123,30 +174,31 @@ img {
 }
 
 .fourPics img {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
 }
 
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding: 25px 0;
+  padding: 10px 0;
 }
 
 #thirdPart {
   display: flex;
   justify-content: space-evenly;
+  padding: 0 50px 0
 }
 
 #thirdPart .container {
-  display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 200px;
+  height: 500px;
   line-height: 2em;
 }
 
-#thirdPart p {
-  width: 80%;
-  margin: 10px auto;
+#thirdPart p{
+  font-size: 14px
 }
+
